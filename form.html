@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<h2>Form Biodata</h2>
+	<hr>
+
+	<form method="post" action="#">
+		<label>NIM : </label>
+		<!-- size untuk panjang input karakter -->
+		<!-- maxlength untuk membatasi jumlah inputan karakter -->
+		<input type="text" name="txtnim" size="10" maxlength="11"
+		placeholder="Masukkan NIM">
+		<br>
+
+		<label>Nama : </label>
+		<input type="text" name="txtnama" size="20" maxlength="100" placeholder="Masukkkan Nama">
+		<br>
+
+		<label>Jurusan : </label>
+		<!-- select untuk opsi pemilihan data -->
+		<!-- Jika tipe data pilihan, harus menggunakan value -->
+		<select name="optjurusan" id="">
+			<option value="S1ILKOM">S1ILKOM</option>
+			<option value="D3TI">D3TI</option>
+			<option value="S1DKV">SQDKV</option>
+
+		</select>
+		<br>
+
+		<label>Jenis Kelamin : </label>
+		<input type="radio" name="jk"> Laki-laki
+		<input type="radio" name="jk"> Perempuan
+		<br>
+		<input type="submit" value="Simpan">
+		<input type="reset" value="Batal">
+
+
+	</form>
+
+</body>
+</html>
