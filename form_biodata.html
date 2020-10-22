@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Biodata</title>
+</head>
+	<style type="text/css">
+		body{
+			background-color: #b88aa7;
+		}
+		h1{
+			text-decoration: underline;
+			text-shadow;
+		}
+	</style>
+<body>
+
+	<h3 align="center"><b>Form Biodata</b></h3>
+	<table>
+		<tr>
+			<td>NIM</td>
+			<td>:</td>
+			<td><input size="20" type="text" placeholder="Masukkan NIM"></td>
+		</tr>
+
+		<tr>
+			<td>NAMA</td>
+			<td>:</td>
+			<td><input size="30" type="text" placeholder="Masukkan Nama"></td>
+		</tr>
+
+		<tr>
+			<td>JENIS KELAMIN</td>
+			<td>:</td>
+			<td><input type="radio" name="jk" value="Laki-laki"> Laki-laki <input type="radio" name="jk" value="Perempuan"> Perempuan</td>
+		</tr>
+
+		<tr>
+			<td>JURUSAN</td>
+			<td>:</td>
+			<td><select name="optjurusan" id="">
+				<option value="S1ILKOM">S1ILKOM</option>
+				<option value="S1DKV">S1DKV</option>
+				<option value="S1TI">S1TI</option>
+				<option value="S1HUKUM">S1HUKUM</option>
+				<option value="S1GIZI">S1GIZI</option>
+			</select></td>
+		</tr>
+
+		<tr>
+			<td>HOBBY</td>
+			<td>:</td>
+			<td>
+				<input type="checkbox" name="Hobby"> Komputer
+				<input type="checkbox" name="Hobby"> Musik
+				<input type="checkbox" name="Hobby"> Olahraga
+				<input type="checkbox" name="Hobby"> Travelling
+			</td>
+		</tr>
+
+		<tr>
+			<td>CATATAN</td>
+			<td>:</td>
+			<td><textarea cols="50" rows="5"></textarea></td>
+		</tr>
+
+		<tr>
+			<td>FOTO</td>
+			<td>:</td>
+			<td><button>Choose File</button>
+				<label>No file chosen</label></td>
+		</tr>
+
+		<tr>
+			<td>EMAIL</td>
+			<td>:</td>
+			<td><textarea cols="30" rows="1" placeholder="Masukkan Email"></textarea></td>
+		</tr>
+
+		<tr>
+			<td>SANDI LOGIN</td>
+			<td>:</td>
+			<td><textarea cols="30" rows="1" placeholder="Masukkan Sandi"></textarea></td>
+		</tr>
+
+		<tr>
+			<td>ULANGI SANDI LOGIN</td>
+			<td>:</td>
+			<td><textarea cols="30" rows="1" placeholder="Masukkan Ulang Sandi"></textarea></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td></td>
+			<td><button>Simpan</button>
+				<button>Batal</button>
+				<button type="button" onclick="alert('Teliti Dikit Dong Ah')">Peringatan</button>
+			</td>
+		</tr>
+
+	</table>
+</body>
+</html>
